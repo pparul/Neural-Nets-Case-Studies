@@ -1,11 +1,14 @@
 from sklearn.datasets import make_blobs
 from keras.utils import to_categorical
 
+### Multi-class classification problem
 
-def create_dataset():
+
+def create_dataset(n_samples, centers, n_features, cluster_std, random_state):
 
 	# generate 2d classification dataset
-	X, y = make_blobs(n_samples=1000, centers=20, n_features=100, cluster_std=2, random_state=2)
+	X, y = make_blobs(n_samples=n_samples, centers=centers, n_features=n_features, cluster_std=cluster_std, 
+		   random_state=random_state)
 	# one hot encode output variable
 	y = to_categorical(y)
 	# split into train and test
