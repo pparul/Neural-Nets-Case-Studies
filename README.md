@@ -1,5 +1,6 @@
 # Neural-Nets-Case-Studies
-Neural-Nets-Case-Studies
 
-How to optimize different parameters of Neural Networks
-1) Capacity of neural network
+This repository focusses on understanding impact of different hyper-parameters of neural networks on accuracy and training speed. 
+1. Vanishing gradients: Impact of activation functions
+2. Step-length 
+
