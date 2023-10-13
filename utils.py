@@ -128,5 +128,9 @@ def gradient_descent(g, alpha_choice, max_its, w):
     # itself (since we aren't computing the gradient at the final step
     # we don't get the final cost function value
     # via the Automatic Differentiatoor)
+    # wow great
     cost_history.append(g(w))
     return weight_history, cost_history
+
+
+# wow great
