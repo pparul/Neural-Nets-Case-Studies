@@ -131,6 +131,3 @@ def gradient_descent(g, alpha_choice, max_its, w):
     # wow great
     cost_history.append(g(w))
     return weight_history, cost_history
-
-
-# wow great
