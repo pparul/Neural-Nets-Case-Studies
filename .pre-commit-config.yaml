@@ -9,3 +9,12 @@ repos:
     -   id: check-yaml
     -   id: check-added-large-files
         args: ['--maxkb=10']
+
+-   repo: local
+    hooks:
+    -   id: clean
+        name: clean
+        entry: make
+        args: ["clean"]
+        language: system
+        pass_filenames: false
