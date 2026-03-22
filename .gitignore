@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large files
+*.pt
+*.pkl
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.arrow
+*.bin
+*.onnx
+*.safetensors
+
+# Data files
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# Markdown files
+*.md
+
+# Hidden / dot files and directories
+.*
+!.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
